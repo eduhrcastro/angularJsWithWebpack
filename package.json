@@ -1,0 +1,38 @@
+{
+  "name": "angularjs-module",
+  "version": "1.0.0",
+  "description": "Using angularjs module with webpack and lazy loading",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eduardo Castro",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "css-loader": "^3.1.0",
+    "eslint": "^4.3.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-angular": "^4.0.0",
+    "eslint-plugin-chai-friendly": "^0.3.6",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "gulp": "^4.0.2",
+    "gulp-connect": "^5.7.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^4.38.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.22",
+    "angular": "^1.7.8",
+    "bootstrap": "^4.3.1"
+  }
+}
